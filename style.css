@@ -149,7 +149,6 @@ h2 {
     justify-content: center;
     background-color: #3882F6;
     margin: 100px 200px 100px 48px;
-    /* padding: 20px 0px; */
     border-radius: 10px;
     color: #E5E7EB;
     gap: 60px;
@@ -177,4 +176,13 @@ h2 {
 
 .info_butt{
     border-color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
 }
