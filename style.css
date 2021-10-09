@@ -26,7 +26,6 @@ a {
 .header_content,
 .info_boxes,
 .quotes,
-.info_block,
 .footer {
     padding: 0px 200px 100px 48px;
 }
@@ -67,13 +66,21 @@ a {
     font-size: 18px;
 }
 
-.butt {
+button {
     background-color: #3882F6;
     border-radius: 10px;
-    border: none;
+    /* border: none; */
+    width:130px;
+    height: 40px;
     padding: 10px 40px;
     color: #F9FAF8;
-    font-size: 16px;
+    font-size: 12px;
+    /* color: #F9FAF8;
+    font-size: 16px; */
+}
+
+.butt {
+    border: none;
 }
 
 h2 {
@@ -134,4 +141,40 @@ h2 {
     font-size: 26px;
     padding-right: 170px;
     padding-top: 8px;
+}
+
+.info_block {
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 100px 200px 100px 48px;
+    /* padding: 20px 0px; */
+    border-radius: 10px;
+    color: #E5E7EB;
+    gap: 60px;
+}
+
+.contact_info {
+    margin: 20px 40px;
+}
+
+.contact_info  p {
+    margin-top: 0;
+}
+
+.contact_info h2 {
+    margin-bottom: 0;
+    text-align: left;
+    color: #F9FAF8;
+}
+
+.butt_enclose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_butt{
+    border-color: #E5E7EB;
 }
