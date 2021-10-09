@@ -7,7 +7,7 @@ h1 {
     font-weight: bold;
 }
 
-img {
+#header_img {
     width: 500px;
     height: auto;
 }
@@ -56,7 +56,6 @@ a {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    /* padding: 0px 2000px 100px 48px; */
 }
 
 .header_info {
@@ -75,4 +74,64 @@ a {
     padding: 10px 40px;
     color: #F9FAF8;
     font-size: 16px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.img_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.info {
+    max-width: 175px;
+}
+
+.info_text {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.image {
+    width: 170px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.quotes p {
+    /* max-width: 800px; */
+    margin:  0px;
+}
+
+#quote_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-right: 170px;
+    padding-left: 100px;
+}
+
+#quote_author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 26px;
+    padding-right: 170px;
+    padding-top: 8px;
 }
